@@ -1,0 +1,11 @@
+# Cloudflare Worker Configuration
+
+name = "bg-remover-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Environment variables (set via wrangler secret)
+# wrangler secret put REMOVEBG_API_KEY
+
+[vars]
+# Add any public environment variables here
